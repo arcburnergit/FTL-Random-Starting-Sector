@@ -2,7 +2,7 @@
 <metadata>
 	<title><![CDATA[ Random Starting Sector ]]></title>
 
-	<threadUrl><![CDATA[https://ftlmultiverse.boards.net/thread/107/outer-expansion-sectors-lore-ships]]></threadUrl>
+	<threadUrl><![CDATA[https://ftlmultiverse.boards.net/thread/153/ftl-random-sector-start]]></threadUrl>
 
 	<author><![CDATA[ Arc ]]></author>
 
@@ -11,7 +11,7 @@
 	<description>
 <![CDATA[
 Randomizes the starting sector at the beginning of the run in order to bring more variety when starting out.
-Picks between one of the sectors that can be found in S2 and S3.
+Picks between one of the sectors that can be found in S2.
 ]]>
 	</description>
 
