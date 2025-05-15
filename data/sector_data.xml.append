@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FTL>
+
+
+<sectorDescription name="SECTOR_RSS_UNION" unique="false">
+	<nameList>
+		<name>Union Sector</name>
+		<name>Union Colonies</name>
+		<name>Union Space</name>
+		<name>Union Settlements</name>
+		<name>Union Frontier</name>
+		<name>Union Domain</name>
+		<name>Union Rimworlds</name>
+		<name>Union Regions</name>
+		<name>Union Precinct</name>
+		<name>Union District</name>
+		<name>Union Parts</name>
+		<name>Union Turf</name>
+		<name>Union Quarter</name>
+		<name>Union Outreaches</name>
+	</nameList>
+	<trackList>
+		<track>galactic</track> 
+		<track>civilian</track> 
+		<track>cosmos</track>
+		<track>milkyway</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="human" rarity="1" />
+		<blueprint name="human_medic" rarity="5" />
+		<blueprint name="human_engineer" rarity="4" />
+		<blueprint name="engi" rarity="0" />
+		<blueprint name="engi_separatist" rarity="0" />
+		<blueprint name="zoltan" rarity="3" />
+		<blueprint name="zoltan_monk" rarity="0" />
+		<blueprint name="zoltan_devotee" rarity="0" />
+		<blueprint name="rock" rarity="0" />
+		<blueprint name="rock_outcast" rarity="2" />
+		<blueprint name="rock_commando" rarity="0" />
+		<blueprint name="mantis" rarity="0" />
+		<blueprint name="mantis_free" rarity="5" />
+		<blueprint name="slug" rarity="0" />
+		<blueprint name="slug_clansman" rarity="0" />
+		<blueprint name="shell" rarity="0" />
+		<blueprint name="shell_scientist" rarity="0" />
+		<blueprint name="shell_mechanic" rarity="0" />
+		<blueprint name="shell_guardian" rarity="0" />
+		<blueprint name="crystal" rarity="5" />
+		<blueprint name="crystal_liberator" rarity="0" />
+		<blueprint name="orchid" rarity="2" />
+		<blueprint name="orchid_vampweed" rarity="3" />
+		<blueprint name="leech" rarity="5" />
+		<blueprint name="lanius" rarity="0" />
+		<blueprint name="phantom" rarity="0" />
+		<blueprint name="phantom_goul" rarity="0" />
+		<blueprint name="phantom_mare" rarity="0" />
+		<blueprint name="phantom_wraith" rarity="0" />
+	</rarityList>
+	<startEvent>START_RSS_HANGER</startEvent>
+	<removeFirstBeaconNebula />
+	<exitBeacon event="FINISH_BEACON_DROPPOINT" nebulaEvent="FINISH_BEACON_DROPPOINT" rebelEvent="FINISH_BEACON_FLEET_ELITE_FEDERATION" />
+	<rebelBeacon event="FLEET_THREAT_VLOW_FEDERATION" nebulaEvent="FLEET_THREAT_MLOW_NEBULA" />
+	<event name="SYLVAN_FIRST" min="1" max="1" />
+	<priorityEvent name="NEMESIS_DROPPOINT" min="1" max="1" req="prof_finalsector" lvl="1" />
+	<priorityEvent name="CURA_PROPOSITION" min="1" max="1" req="prof_finalsector" lvl="2" />
+
+	<event name="DROPPOINT_SUPPLY_DEPOT" min="2" max="2" />
+	
+	<event name="SPIDER_QUEST_START" min="0" max="1" />
+	
+	<event name="OUTPOST_UNION_SPAWNER" min="1" max="1" />
+	<event name="STORELIST_UNION" min="2" max="3" />
+	
+	<event name="ITEMS_UNION" min="3" max="4" />
+	<event name="NEUTRAL_UNION" min="4" max="5" />
+	<event name="DISTRESS_UNION" min="1" max="2" />
+	<event name="QUESTS_UNION" min="1" max="1" />
+	
+	<event name="HOSTILE_UNION" min="4" max="6" />
+	
+	<event name="PIRACY_LIST" min="0" max="2" />
+	<event name="FILLER_LIST" min="999" max="999" />
+</sectorDescription>
+<sectorDescription name="SECTOR_RSS_HARMONY" unique="false">
+	<nameList>
+		<name>Harmony Sector</name>
+		<name>Harmony Space</name>
+		<name>Harmony Domain</name>
+		<name>Harmony Rimworlds</name>
+		<name>Harmony Regions</name>
+		<name>Harmony Precinct</name>
+		<name>Harmony District</name>
+		<name>Harmony Turf</name>
+		<name>Harmony Quarter</name>
+		<name>Harmony Outreaches</name>
+		<name>Harmony Linkage</name>
+		<name>Harmony Zone</name>
+	</nameList>
+	<trackList>
+		<track>engi</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+		<track>spaceass</track> 
+	</trackList>
+	<rarityList>
+		<blueprint name="human" rarity="5" />
+		<blueprint name="human_medic" rarity="0" />
+		<blueprint name="human_engineer" rarity="0" />
+		<blueprint name="engi" rarity="1" />
+		<blueprint name="engi_separatist" rarity="4" />
+		<blueprint name="zoltan" rarity="2" />
+		<blueprint name="zoltan_monk" rarity="0" />
+		<blueprint name="zoltan_devotee" rarity="0" />
+		<blueprint name="rock" rarity="0" />
+		<blueprint name="rock_outcast" rarity="0" />
+		<blueprint name="rock_commando" rarity="0" />
+		<blueprint name="mantis" rarity="4" />
+		<blueprint name="mantis_free" rarity="0" />
+		<blueprint name="slug" rarity="0" />
+		<blueprint name="slug_clansman" rarity="0" />
+		<blueprint name="shell" rarity="0" />
+		<blueprint name="shell_scientist" rarity="0" />
+		<blueprint name="shell_mechanic" rarity="0" />
+		<blueprint name="shell_guardian" rarity="0" />
+		<blueprint name="crystal" rarity="0" />
+		<blueprint name="crystal_liberator" rarity="0" />
+		<blueprint name="orchid" rarity="0" />
+		<blueprint name="orchid_vampweed" rarity="0" />
+		<blueprint name="leech" rarity="0" />
+		<blueprint name="lanius" rarity="0" />
+		<blueprint name="phantom" rarity="0" />
+		<blueprint name="phantom_goul" rarity="0" />
+		<blueprint name="phantom_mare" rarity="0" />
+		<blueprint name="phantom_wraith" rarity="0" />
+	</rarityList>
+	<startEvent>START_RSS_HANGER</startEvent>
+	<removeFirstBeaconNebula />
+	<exitBeacon event="FINISH_BEACON_DROPPOINT" nebulaEvent="FINISH_BEACON_DROPPOINT" rebelEvent="FINISH_BEACON_FLEET_ELITE_FEDERATION" />
+	<rebelBeacon event="FLEET_THREAT_VLOW_FEDERATION" nebulaEvent="FLEET_THREAT_MLOW_NEBULA" />
+	<event name="SYLVAN_FIRST" min="1" max="1" />
+	<priorityEvent name="NEMESIS_DROPPOINT" min="1" max="1" req="prof_finalsector" lvl="1" />
+	<priorityEvent name="CURA_PROPOSITION" min="1" max="1" req="prof_finalsector" lvl="2" />
+
+	<event name="DROPPOINT_SUPPLY_DEPOT" min="2" max="2" />
+	
+	<event name="HARMONY_LINK_DEFAULT" min="1" max="1" />
+	
+	<event name="RUINS_ENGI" min="0" max="1" />
+	<event name="OUTPOST_ENGI_SPAWNER" min="1" max="1" />
+	<event name="STORELIST_ENGI" min="2" max="3" />
+	
+	<event name="ITEMS_ENGI_MV" min="3" max="4" />
+	<event name="NEUTRAL_ENGI_MV" min="4" max="5" />
+	<event name="DISTRESS_ENGI_MV" min="1" max="2" />
+	<event name="QUESTS_ENGI_MV" min="1" max="1" />
+	
+	<event name="HOSTILE_ENGI_MV" min="4" max="6" />
+	
+	<event name="PIRACY_LIST" min="0" max="2" />
+	<event name="FILLER_LIST" min="999" max="999" />
+</sectorDescription>
+<sectorDescription name="SECTOR_RSS_GATHERING" unique="false">
+	<nameList>
+		<name>Gathering Sector</name>
+		<name>Gathering Colonies</name>
+		<name>Gathering Space</name>
+		<name>Gathering Settlements</name>
+		<name>Gathering Frontier</name>
+		<name>Gathering Territory</name>
+		<name>Gathering Domain</name>
+		<name>Gathering Rimworlds</name>
+		<name>Gathering Regions</name>
+		<name>Gathering Precinct</name>
+		<name>Gathering District</name>
+		<name>Gathering Dominion</name>
+		<name>Gathering Turf</name>
+		<name>Gathering Realm</name>
+		<name>Gathering Quarter</name>
+		<name>Gathering Shire</name>
+		<name>Gathering Outreaches</name>
+	</nameList>
+	<trackList>
+		<track>orchid</track>
+		<track>cosmos</track>
+		<track>spaceass</track> 
+		<track>lostship</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="human" rarity="3" />
+		<blueprint name="human_medic" rarity="0" />
+		<blueprint name="human_engineer" rarity="0" />
+		<blueprint name="engi" rarity="0" />
+		<blueprint name="engi_separatist" rarity="4" />
+		<blueprint name="zoltan" rarity="4" />
+		<blueprint name="zoltan_monk" rarity="0" />
+		<blueprint name="zoltan_devotee" rarity="0" />
+		<blueprint name="rock" rarity="0" />
+		<blueprint name="rock_outcast" rarity="2" />
+		<blueprint name="rock_commando" rarity="0" />
+		<blueprint name="mantis" rarity="0" />
+		<blueprint name="mantis_free" rarity="5" />
+		<blueprint name="slug" rarity="0" />
+		<blueprint name="slug_clansman" rarity="0" />
+		<blueprint name="shell" rarity="0" />
+		<blueprint name="shell_scientist" rarity="0" />
+		<blueprint name="shell_mechanic" rarity="0" />
+		<blueprint name="shell_guardian" rarity="0" />
+		<blueprint name="crystal" rarity="0" />
+		<blueprint name="crystal_liberator" rarity="0" />
+		<blueprint name="orchid" rarity="1" />
+		<blueprint name="orchid_caretaker" rarity="3" />
+		<blueprint name="orchid_vampweed" rarity="3" />
+		<blueprint name="leech" rarity="5" />
+		<blueprint name="lanius" rarity="0" />
+		<blueprint name="phantom" rarity="0" />
+		<blueprint name="phantom_goul" rarity="0" />
+		<blueprint name="phantom_mare" rarity="0" />
+		<blueprint name="phantom_wraith" rarity="0" />
+		
+		<blueprint name="KERNEL_1" rarity="1" />
+		<blueprint name="KERNEL_2" rarity="1" />
+		<blueprint name="KERNEL_HEAVY" rarity="3" />
+		<blueprint name="KERNEL_CHAIN" rarity="4" />
+		<blueprint name="KERNEL_CHARGE" rarity="4" />
+		<blueprint name="KERNEL_FIRE" rarity="5" />
+	</rarityList>
+	<startEvent>START_RSS_HANGER</startEvent>
+	<removeFirstBeaconNebula />
+	<exitBeacon event="FINISH_BEACON_DROPPOINT" nebulaEvent="FINISH_BEACON_DROPPOINT" rebelEvent="FINISH_BEACON_FLEET_ELITE_FEDERATION" />
+	<rebelBeacon event="FLEET_THREAT_VLOW_FEDERATION" nebulaEvent="FLEET_THREAT_MLOW_NEBULA" />
+	<event name="SYLVAN_FIRST" min="1" max="1" />
+	<priorityEvent name="NEMESIS_DROPPOINT" min="1" max="1" req="prof_finalsector" lvl="1" />
+	<priorityEvent name="CURA_PROPOSITION" min="1" max="1" req="prof_finalsector" lvl="2" />
+
+	<event name="DROPPOINT_SUPPLY_DEPOT" min="2" max="2" />
+	
+	<event name="OUTPOST_ORCHID_SPAWNER" min="1" max="1" />
+	<event name="STORELIST_ORCHID" min="2" max="3" />
+	
+	<event name="ITEMS_ORCHID" min="3" max="4" />
+	<event name="NEUTRAL_ORCHID" min="4" max="5" />
+	<event name="DISTRESS_ORCHID" min="1" max="2" />
+	<event name="QUESTS_ORCHID" min="1" max="1" />
+	
+	<event name="HOSTILE_ORCHID" min="4" max="6" />
+	
+	<event name="PIRACY_LIST" min="0" max="2" />
+	<event name="FILLER_LIST" min="999" max="999" />
+</sectorDescription>
+<sectorDescription name="SECTOR_RSS_FREEMANTIS" unique="false">
+	<nameList>
+		<name>Free Mantis Sector</name>
+		<name>Free Mantis Space</name>
+		<name>Free Mantis Frontier</name>
+		<name>Free Mantis Territory</name>
+		<name>Free Mantis Domain</name>
+		<name>Free Mantis Rimworlds</name>
+		<name>Free Mantis Regions</name>
+		<name>Free Mantis Precinct</name>
+		<name>Free Mantis Parts</name>
+		<name>Free Mantis Dominion</name>
+		<name>Free Mantis Turf</name>
+		<name>Free Mantis Realm</name>
+		<name>Free Mantis Outreaches</name>
+	</nameList>
+	<trackList>
+		<track>freemantis</track>
+		<track>lostship</track>
+		<track>zoltan</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="human" rarity="3" />
+		<blueprint name="human_medic" rarity="0" />
+		<blueprint name="human_engineer" rarity="0" />
+		<blueprint name="engi" rarity="0" />
+		<blueprint name="engi_separatist" rarity="5" />
+		<blueprint name="zoltan" rarity="2" />
+		<blueprint name="zoltan_monk" rarity="0" />
+		<blueprint name="zoltan_devotee" rarity="0" />
+		<blueprint name="rock" rarity="0" />
+		<blueprint name="rock_outcast" rarity="0" />
+		<blueprint name="rock_commando" rarity="0" />
+		<blueprint name="mantis" rarity="3" />
+		<blueprint name="mantis_free" rarity="1" />
+		<blueprint name="slug" rarity="0" />
+		<blueprint name="slug_clansman" rarity="0" />
+		<blueprint name="shell" rarity="0" />
+		<blueprint name="shell_scientist" rarity="0" />
+		<blueprint name="shell_mechanic" rarity="0" />
+		<blueprint name="shell_guardian" rarity="0" />
+		<blueprint name="crystal" rarity="0" />
+		<blueprint name="crystal_liberator" rarity="0" />
+		<blueprint name="orchid" rarity="0" />
+		<blueprint name="orchid_vampweed" rarity="0" />
+		<blueprint name="leech" rarity="0" />
+		<blueprint name="lanius" rarity="0" />
+		<blueprint name="phantom" rarity="0" />
+		<blueprint name="phantom_goul" rarity="0" />
+		<blueprint name="phantom_mare" rarity="0" />
+		<blueprint name="phantom_wraith" rarity="0" />
+		
+		<!--<blueprint name="EX_ZOLTAN_BYPASS" rarity="1"/>-->
+	</rarityList>
+	<startEvent>START_RSS_HANGER</startEvent>
+	<removeFirstBeaconNebula />
+	<exitBeacon event="FINISH_BEACON_DROPPOINT" nebulaEvent="FINISH_BEACON_DROPPOINT" rebelEvent="FINISH_BEACON_FLEET_ELITE_FEDERATION" />
+	<rebelBeacon event="FLEET_THREAT_VLOW_FEDERATION" nebulaEvent="FLEET_THREAT_MLOW_NEBULA" />
+	<event name="SYLVAN_FIRST" min="1" max="1" />
+	<priorityEvent name="NEMESIS_DROPPOINT" min="1" max="1" req="prof_finalsector" lvl="1" />
+	<priorityEvent name="CURA_PROPOSITION" min="1" max="1" req="prof_finalsector" lvl="2" />
+
+	<event name="DROPPOINT_SUPPLY_DEPOT" min="2" max="2" />
+	
+	<event name="OUTPOST_FREEMANTIS_SPAWNER" min="1" max="1" />
+	<event name="STORELIST_FREEMANTIS" min="2" max="3" />
+	
+	<event name="ITEMS_FREEMANTIS" min="3" max="4" />
+	<event name="NEUTRAL_FREEMANTIS" min="4" max="5" />
+	<event name="DISTRESS_FREEMANTIS" min="1" max="2" />
+	<event name="QUEST_FREEMANTIS" min="1" max="1" />
+	
+	<event name="HOSTILE_FREEMANTIS" min="4" max="6" />
+	
+	<event name="PIRACY_LIST" min="0" max="2" />
+	<event name="FILLER_LIST" min="999" max="999" />
+</sectorDescription>
+<sectorDescription name="SECTOR_RSS_SEPARATIST" unique="false">
+	<nameList>
+		<name>Blasphemous Sector</name>
+		<name>Blasphemous Space</name>
+		<name>Blasphemous Colonies</name>
+		<name>Blasphemous Settlements</name>
+		<name>Blasphemous Regions</name>
+		<name>Blasphemous District</name>
+		<name>Blasphemous Quarter</name>
+		<name>Blasphemous Outreaches</name>
+		<name>Blasphemous Zone</name>
+	</nameList>
+	<trackList>
+		<track>separatist</track>
+		<track>cosmos</track>
+		<track>hacking</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="human" rarity="0" />
+		<blueprint name="human_medic" rarity="0" />
+		<blueprint name="human_engineer" rarity="0" />
+		<blueprint name="engi" rarity="3" />
+		<blueprint name="engi_separatist" rarity="2" />
+		<blueprint name="zoltan" rarity="0" />
+		<blueprint name="zoltan_monk" rarity="0" />
+		<blueprint name="zoltan_devotee" rarity="0" />
+		<blueprint name="rock" rarity="0" />
+		<blueprint name="rock_outcast" rarity="0" />
+		<blueprint name="rock_commando" rarity="0" />
+		<blueprint name="mantis" rarity="3" />
+		<blueprint name="mantis_free" rarity="0" />
+		<blueprint name="slug" rarity="0" />
+		<blueprint name="slug_clansman" rarity="0" />
+		<blueprint name="shell" rarity="0" />
+		<blueprint name="shell_scientist" rarity="0" />
+		<blueprint name="shell_mechanic" rarity="0" />
+		<blueprint name="shell_guardian" rarity="0" />
+		<blueprint name="crystal" rarity="0" />
+		<blueprint name="crystal_liberator" rarity="0" />
+		<blueprint name="orchid" rarity="0" />
+		<blueprint name="orchid_vampweed" rarity="0" />
+		<blueprint name="leech" rarity="0" />
+		<blueprint name="lanius" rarity="5" />
+		<blueprint name="phantom" rarity="0" />
+		<blueprint name="phantom_goul" rarity="0" />
+		<blueprint name="phantom_mare" rarity="0" />
+		<blueprint name="phantom_wraith" rarity="0" />
+	</rarityList>
+	<startEvent>START_RSS_HANGER</startEvent>
+	<removeFirstBeaconNebula />
+	<exitBeacon event="FINISH_BEACON_DROPPOINT" nebulaEvent="FINISH_BEACON_DROPPOINT" rebelEvent="FINISH_BEACON_FLEET_ELITE_FEDERATION" />
+	<rebelBeacon event="FLEET_THREAT_VLOW_FEDERATION" nebulaEvent="FLEET_THREAT_MLOW_NEBULA" />
+	<event name="SYLVAN_FIRST" min="1" max="1" />
+	<priorityEvent name="NEMESIS_DROPPOINT" min="1" max="1" req="prof_finalsector" lvl="1" />
+	<priorityEvent name="CURA_PROPOSITION" min="1" max="1" req="prof_finalsector" lvl="2" />
+
+	<event name="DROPPOINT_SUPPLY_DEPOT" min="2" max="2" />
+	
+	<event name="HARMONY_LINK_SEP" min="1" max="1" />
+	
+	<event name="RUINS_SEPARATIST" min="0" max="1" />
+	<event name="STORELIST_SEPARATIST" min="2" max="2" />
+	
+	<event name="ITEMS_SEPARATIST" min="3" max="4" />
+	<event name="NEUTRAL_SEPARATIST" min="4" max="5" />
+	<event name="DISTRESS_SEPARATIST" min="2" max="3" />
+	<event name="QUESTS_SEPARATIST" min="1" max="1" />
+	
+	<event name="HOSTILE_SEPARATIST" min="3" max="7" />
+	
+	<event name="PIRACY_LIST" min="1" max="2" />
+	<event name="FILLER_LIST" min="999" max="999" />
+</sectorDescription>
+<sectorDescription name="SECTOR_RSS_OUTCAST" unique="false">
+	<nameList>
+		<name>Outcast Rimworlds</name>
+		<name>Outcast Colonies</name>
+		<name>Outcast Outreaches</name>
+		<name>Outcast Turf</name>
+		<name>Outcast Territory</name>
+		<name>Outcast Dominion</name>
+		<name>Outcast Regions</name>
+	</nameList>
+	<trackList>
+		<track>rock</track>
+		<track>lostship</track>
+		<track>voyager</track>
+		<track>cosmos</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="human" rarity="0" />
+		<blueprint name="human_medic" rarity="0" />
+		<blueprint name="human_engineer" rarity="0" />
+		<blueprint name="engi" rarity="0" />
+		<blueprint name="engi_separatist" rarity="0" />
+		<blueprint name="zoltan" rarity="5" />
+		<blueprint name="zoltan_monk" rarity="0" />
+		<blueprint name="zoltan_devotee" rarity="0" />
+		<blueprint name="rock" rarity="2" />
+		<blueprint name="rock_outcast" rarity="1" />
+		<blueprint name="rock_commando" rarity="0" />
+		<blueprint name="mantis" rarity="0" />
+		<blueprint name="mantis_free" rarity="0" />
+		<blueprint name="slug" rarity="0" />
+		<blueprint name="slug_clansman" rarity="0" />
+		<blueprint name="shell" rarity="0" />
+		<blueprint name="shell_scientist" rarity="0" />
+		<blueprint name="shell_mechanic" rarity="0" />
+		<blueprint name="shell_guardian" rarity="0" />
+		<blueprint name="crystal" rarity="5" />
+		<blueprint name="crystal_liberator" rarity="2" />
+		<blueprint name="orchid" rarity="0" />
+		<blueprint name="orchid_vampweed" rarity="0" />
+		<blueprint name="leech" rarity="0" />
+		<blueprint name="lanius" rarity="0" />
+		<blueprint name="phantom" rarity="0" />
+		<blueprint name="phantom_goul" rarity="0" />
+		<blueprint name="phantom_mare" rarity="0" />
+		<blueprint name="phantom_wraith" rarity="0" />
+	</rarityList>
+	<startEvent>START_RSS_HANGER</startEvent>
+	<removeFirstBeaconNebula />
+	<exitBeacon event="FINISH_BEACON_DROPPOINT" nebulaEvent="FINISH_BEACON_DROPPOINT" rebelEvent="FINISH_BEACON_FLEET_ELITE_FEDERATION" />
+	<rebelBeacon event="FLEET_THREAT_VLOW_FEDERATION" nebulaEvent="FLEET_THREAT_MLOW_NEBULA" />
+	<event name="SYLVAN_FIRST" min="1" max="1" />
+	<priorityEvent name="NEMESIS_DROPPOINT" min="1" max="1" req="prof_finalsector" lvl="1" />
+	<priorityEvent name="CURA_PROPOSITION" min="1" max="1" req="prof_finalsector" lvl="2" />
+
+	<event name="DROPPOINT_SUPPLY_DEPOT" min="2" max="2" />
+	
+	<event name="OUTPOST_OUTCAST_SPAWNER" min="1" max="1" />
+	<event name="STORELIST_OUTCAST" min="2" max="3" />
+	
+	<event name="ITEMS_OUTCAST" min="3" max="4" />
+	<event name="NEUTRAL_OUTCAST" min="4" max="5" />
+	<event name="DISTRESS_OUTCAST" min="1" max="2" />
+	<event name="QUESTS_OUTCAST" min="1" max="1" />
+	
+	<event name="HOSTILE_OUTCAST" min="4" max="6" />
+	
+	<event name="PIRACY_LIST" min="0" max="2" />
+	<event name="FILLER_LIST" min="999" max="999" />
+</sectorDescription>
+</FTL>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<title><![CDATA[ Random Starting Sector ]]></title>
+
+	<threadUrl><![CDATA[https://ftlmultiverse.boards.net/thread/107/outer-expansion-sectors-lore-ships]]></threadUrl>
+
+	<author><![CDATA[ Arc ]]></author>
+
+	<version><![CDATA[ 1.0 ]]></version>
+
+	<description>
+<![CDATA[
+Randomizes the starting sector at the beginning of the run in order to bring more variety when starting out.
+Picks between one of the sectors that can be found in S2 and S3.
+]]>
+	</description>
+
+</metadata>

@@ -1,0 +1,26 @@
+<FTL>
+<animSheet name="bg_rss_toggle" w="312" h="447" fw="312" fh="447">bg_rss_toggle.png</animSheet>
+<anim name="bg_rss_toggle">
+	<sheet>bg_rss_toggle</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+<animSheet name="bg_rss_toggle_hover" w="312" h="447" fw="312" fh="447">bg_rss_toggle_hover.png</animSheet>
+<anim name="bg_rss_toggle_hover">
+	<sheet>bg_rss_toggle_hover</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+<animSheet name="bg_rss_toggle_active" w="312" h="447" fw="312" fh="447">bg_rss_toggle_active.png</animSheet>
+<anim name="bg_rss_toggle_active">
+	<sheet>bg_rss_toggle_active</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+<animSheet name="bg_rss_toggle_active_hover" w="312" h="447" fw="312" fh="447">bg_rss_toggle_active_hover.png</animSheet>
+<anim name="bg_rss_toggle_active_hover">
+	<sheet>bg_rss_toggle_active_hover</sheet>
+	<desc length="1" x="0" y="0" />
+	<time>1</time>
+</anim>
+</FTL>

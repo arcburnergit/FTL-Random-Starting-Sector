@@ -1,0 +1,44 @@
+<FTL>
+<mod:findName name="START_BEACON_REAL">
+  <mod-append:triggeredEvent event="RSS_JUMP_EVENT" seeded="false" loops="1" minTime="0.011" maxTime="0.011" />
+</mod:findName>
+<event name="RSS_JUMP_EVENT">
+    <jumpEvent>RSS_SELECT_SECTOR</jumpEvent>
+</event>
+<event name="RSS_SELECT_SECTOR">
+    <playSound>lightspeed</playSound>
+    <loadEventList seeded="true" first="false" generate="true">
+        <event req="rss_active" lvl="1" max_lvl="1">
+            <secretSector>SECTOR_RSS_UNION</secretSector>
+        </event>
+        <event req="rss_active" lvl="1" max_lvl="1">
+            <secretSector>SECTOR_RSS_HARMONY</secretSector>
+        </event>
+        <event req="rss_active" lvl="1" max_lvl="1">
+            <secretSector>SECTOR_RSS_GATHERING</secretSector>
+        </event>
+        <event req="rss_active" lvl="1" max_lvl="1">
+            <secretSector>SECTOR_RSS_FREEMANTIS</secretSector>
+        </event>
+        <event req="rss_active" lvl="1" max_lvl="1">
+            <secretSector>SECTOR_RSS_SEPARATIST</secretSector>
+        </event>
+        <event req="rss_active" lvl="1" max_lvl="1">
+            <secretSector>SECTOR_RSS_OUTCAST</secretSector>
+        </event>
+    </loadEventList>
+</event>
+<event name="START_RSS_HANGER">
+    <text>You've arrived at your destination. You don't have long to plan your next moves, the rebel fleet are advancing and you still need to get to Node 17 and stop the rebel flagship.</text>
+</event>
+
+
+<event name="RSS_TOGGLE_OFF">
+    <text>You will now no longer be sent to a random starting sector, this can be reenabled by interacting with the hanger door again.</text>
+    <metaVariable name="rss_active" op="set" val="0" />
+</event>
+<event name="RSS_TOGGLE_ON">
+    <text>You will now be sent to a random starting sector, this can be disabled by interacting with the hanger door again.</text>
+    <metaVariable name="rss_active" op="set" val="1" />
+</event>
+</FTL>

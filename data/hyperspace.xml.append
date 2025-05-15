@@ -1,0 +1,8 @@
+<FTL>
+<mod:findLike type="scripts">
+  <mod-append:script>data/random_start.lua</mod-append:script>
+</mod:findLike>
+<mod:findLike type="events" limit="1">
+	<mod-append:metaVariable name="rss_active" op="set" val="1" />
+</mod:findLike>
+</FTL>
